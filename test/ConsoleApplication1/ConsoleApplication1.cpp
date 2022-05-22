@@ -51,12 +51,11 @@ void methodGeneral(int mg_headCount,int mg_footCount)
 
 void methodMatrix(int mm_headCount, int mm_footCount)
 {
-    /*
-                    //chicken          rabbit      
-    int A[2][2] = { {HEAD_PER_CHICKEN, HEAD_PER_RABBIT} , //head
-                    {FEET_PER_CHICKEN, FEET_PER_RABBIT}   //count
-                  };
-    */
+    //                //chicken          rabbit      
+    //int A[2][2] = { {HEAD_PER_CHICKEN, HEAD_PER_RABBIT} , //head
+    //                {FEET_PER_CHICKEN, FEET_PER_RABBIT}   //count
+    //              };
+ 
                     //chicken          rabbit      
     int IA[2][2] = { {FEET_PER_RABBIT, -FEET_PER_CHICKEN} , //head
                      {-HEAD_PER_RABBIT, HEAD_PER_CHICKEN}   //count
